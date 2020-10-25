@@ -52,7 +52,7 @@ function game() {
 let i;
     for (i = 0; i < 5; i++) {
         computerPlay();
-        console.log(playRound(prompt("Rock, Paper or Scissors?:").toLowerCase(), computerSelection));
+        playRound(prompt("Rock, Paper or Scissors?:").toLowerCase(), computerSelection);
         console.log("Total Score: " + score);
     }
 }
